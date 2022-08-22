@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<!--FONTS-->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@700&display=swap');
+    </style>
+<body>
+    <header>
+        <nav>
+        <div class="nav-links">
+            <ul>
+                <li>
+                    <a href="" class="border" > Work.</a>
+                    <a href="" class="border">Services.</a>
+                    <a href=""class="border" >Progression.</a>
+                    <a href="" class="border">About.</a>
+                    <button class="button"> Make Order</button>
+                </li>
+                <div class="secondblock">
+              
+
+                
+                </div>
+            </ul>
+        </div>
+        <img src="media/OIP (5).jfif" alt="menu" class="menu-hamburger">
+
+        </nav>
+    </header>
+<div class="welcome">
+    <h1 class="wlc">Welcome to </h1>
+    <h1>My</h1>
+    <h1>Portfolio</h1>
+</div>
+<div class="competence">
+<h1 class="website">1 . Website</h1>
+<div class="wrapper">
+    <div class="one"><button  class="button2">Le méditéranéen</button></div>
+    <div class="two"><button class="button3">NBA</button></div>
+    <div class="three"><button class="button4">Boulangerie</button</div>
+  </div>
+</div>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html> 
